@@ -1,0 +1,12 @@
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.deps.json
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.runtimeconfig.json
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.runtimeconfig.dev.json
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.dll
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.pdb
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.csprojAssemblyReference.cache
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.csproj.CoreCompileInputs.cache
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.AssemblyInfoInputs.cache
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.AssemblyInfo.cs
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.dll
+F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.pdb
