@@ -10,3 +10,15 @@ F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\net
 F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.AssemblyInfo.cs
 F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.dll
 F:\Proyectos\Web Api\VirtualidadReal_WebAPP\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.pdb
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.deps.json
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.runtimeconfig.json
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.runtimeconfig.dev.json
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.dll
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\bin\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.pdb
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.csprojAssemblyReference.cache
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.csproj.CoreCompileInputs.cache
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.AssemblyInfoInputs.cache
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.AssemblyInfo.cs
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.dll
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp2.0\VirtualidadReal_WebAPP.pdb

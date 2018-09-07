@@ -13266,11 +13266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Proyectos\\Web Api\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP.csproj",
+      "projectUniqueName": "C:\\Users\\czanutti\\Documents\\GitHub\\VirtualidadReal\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP.csproj",
       "projectName": "VirtualidadReal_WebAPP",
-      "projectPath": "F:\\Proyectos\\Web Api\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP.csproj",
+      "projectPath": "C:\\Users\\czanutti\\Documents\\GitHub\\VirtualidadReal\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP.csproj",
       "packagesPath": "C:\\Users\\czanutti\\.nuget\\packages\\",
-      "outputPath": "F:\\Proyectos\\Web Api\\VirtualidadReal_WebAPP\\VirtualidadReal_WebAPP\\obj\\",
+      "outputPath": "C:\\Users\\czanutti\\Documents\\GitHub\\VirtualidadReal\\VirtualidadReal_WebAPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
