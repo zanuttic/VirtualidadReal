@@ -1,0 +1,3 @@
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp1.1\VirtualidadReal_WebAPP.csproj.CoreCompileInputs.cache
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp1.1\VirtualidadReal_WebAPP.AssemblyInfoInputs.cache
+C:\Users\czanutti\Documents\GitHub\VirtualidadReal\VirtualidadReal_WebAPP\obj\Debug\netcoreapp1.1\VirtualidadReal_WebAPP.AssemblyInfo.cs

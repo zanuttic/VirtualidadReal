@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <UserSecretsId>aspnet-VirtualidadReal_WebAPP-6230CCD8-55B5-43AF-8172-509377909F5D</UserSecretsId>
+    <AssemblyName>VirtualidadReal_WebAPP</AssemblyName>
+    <RootNamespace>VirtualidadReal_WebAPP</RootNamespace>
   </PropertyGroup>
 
 

@@ -40,7 +40,7 @@ namespace VirtualidadReal_WebAPP
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public  void  Configure(IApplicationBuilder app, IHostingEnvironment env, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -63,6 +63,33 @@ namespace VirtualidadReal_WebAPP
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            CreateRoles(serviceProvider).Wait();
         }
+
+        private async Task CreateRoles(IServiceProvider serviceProvider)
+        {
+            var roleMagar = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var userMagar = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
+            string[] rolesNames = { "Administrador", "Coordinador", "Jugador", "Invitado" };
+
+            IdentityResult result;
+            foreach (var roleName in rolesNames)
+            {
+                var rolExist = await roleMagar.RoleExistsAsync(roleName);
+                if (!rolExist)
+                {
+                    result = await roleMagar.CreateAsync(new IdentityRole(roleName));
+                }
+            }
+
+            var user = await userMagar.FindByIdAsync("3e560ea8-dee4-482b-b3f0-ce612a10a1f5");
+            await userMagar.AddToRoleAsync(user, "Administrador");
+
+
+
+
+        }
+
     }
 }

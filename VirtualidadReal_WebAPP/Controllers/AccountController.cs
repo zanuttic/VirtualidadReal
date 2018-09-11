@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using VirtualidadReal_WebAPP.Data;
 using VirtualidadReal_WebAPP.Models;
 using VirtualidadReal_WebAPP.Models.AccountViewModels;
 using VirtualidadReal_WebAPP.Services;
@@ -24,17 +25,20 @@ namespace VirtualidadReal_WebAPP.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger _logger;
+        private ApplicationDbContext _context;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
-            ILogger<AccountController> logger)
+            ILogger<AccountController> logger,
+            ApplicationDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _logger = logger;
+            _context = context;
         }
 
         [TempData]
@@ -208,8 +212,10 @@ namespace VirtualidadReal_WebAPP.Controllers
         [AllowAnonymous]
         public IActionResult Register(string returnUrl = null)
         {
+            RegisterViewModel R = new RegisterViewModel();
+            //R.getRoles(_context);
             ViewData["ReturnUrl"] = returnUrl;
-            return View();
+            return View(R);
         }
 
         [HttpPost]
@@ -222,6 +228,7 @@ namespace VirtualidadReal_WebAPP.Controllers
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
+                await _userManager.AddToRoleAsync(user, model.Rol);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
